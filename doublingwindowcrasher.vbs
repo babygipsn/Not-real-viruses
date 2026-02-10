@@ -6,7 +6,7 @@ Do
     count = count + 1
 
     If count = 5 Then
-        CreateObject("WScript.Shell").Run "cmdspam.bat"
-        WScript.Quit
+    Set sh = CreateObject("WScript.Shell")
+    sh.Run "cmd.exe /c start """" cmdspam.bat", 1, False
     End If
 Loop
