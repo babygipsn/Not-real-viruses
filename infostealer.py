@@ -50,12 +50,12 @@ def colored_print(text, color=Colors.WHITE, bold=False):
 # ========================
 # CONFIGURATION
 # ========================
-ENABLE_EXFIL = True  # Set True to exfiltrate data to a server
-EXFIL_URL = "C:/Users/Robotik/Documents/GitHub/Not-real-viruses/infos"  # Change this!
+ENABLE_EXFIL = False  # Set True to exfiltrate data to a server
+EXFIL_URL = ""  # Change this!
 DELAY_MIN = 1  # Minimum random delay between operations (seconds)
 DELAY_MAX = 3  # Maximum random delay
-STEALTH_MODE = False  # Minimize console output and delays
-ENCRYPT_DATA = True  # Encrypt extracted data before saving
+STEALTH_MODE = True  # Minimize console output and delays
+ENCRYPT_DATA = False  # Encrypt extracted data before saving
 COMPRESS_DATA = True  # Compress extracted data
 
 # ========================
